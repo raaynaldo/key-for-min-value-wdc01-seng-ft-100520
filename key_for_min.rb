@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   smallest = nil
   name_hash.each{ |name,value|
+    puts "key : #{name} Value : #{value}"
     if name_hash[smallest] < value
       smallest = name
     end
