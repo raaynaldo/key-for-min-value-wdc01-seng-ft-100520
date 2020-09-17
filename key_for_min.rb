@@ -3,12 +3,12 @@
 
 def key_for_min_value(name_hash)
   smallest = ""
-  namekey = ""
+  a = ""
   name_hash.each{ |name,score|
     if smallest < score
       smallest = score
-      namekey = name
+      a = name
     end
   }
-  key
+  a
 end
