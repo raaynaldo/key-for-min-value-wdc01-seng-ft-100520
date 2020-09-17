@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   smallest = 1000
-  key = ""
+  key = nil
   name_hash.each{ |name,score|
     if smallest > score
       smallest = score
