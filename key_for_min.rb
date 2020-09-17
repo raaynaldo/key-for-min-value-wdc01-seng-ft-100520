@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   smallest = 0
   key = ""
   name_hash.each{ |name,score|
-    if smallest < score
+    if smallest > score
       smallest = score
       key = name
     end
